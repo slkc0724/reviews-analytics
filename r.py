@@ -27,7 +27,7 @@ print('there are', len(new), 'comments which the length is smaller than 100')
 # print(new[0])
 # print(new[1])
 
-good = []
+good = [] # / good = [d for d in data if 'good' in d]
 for d in data:
 	if 'good' in d:
 		good.append(d)
